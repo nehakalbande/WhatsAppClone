@@ -4,7 +4,7 @@ import { SearchOutlined } from "@material-ui/icons";
 import ChatIcon from "@material-ui/icons/Chat";
 import MoreVertIcon from "@material-ui/icons/MoreVert";
 import "./sidebar.css";
-import ne from "./ne.jpg";
+// import ne from "./ne.jpg";
 import { Avatar, IconButton } from "@material-ui/core";
 import SidebarChat from "./SidebarChat";
 
@@ -12,7 +12,7 @@ function Sidebar() {
   return (
     <div className="sidebar">
       <div className="sidebar__header">
-        <Avatar src={ne} />
+        <Avatar src={} />
         <div className="sidebar__headerRight">
           <IconButton>
             <DonutLargeIcon />

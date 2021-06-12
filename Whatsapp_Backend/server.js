@@ -10,10 +10,10 @@ const app = express();
 const port = process.env.PORT || 9000;
 
 const pusher = new Pusher({
-  appId: "1103773",
-  key: "cc9e57e6e2d34b5acc99",
-  secret: "54d4c91cbe091ba12d76",
-  cluster: "ap2",
+  appId: "",
+  key: "",
+  secret: "",
+  cluster: "",
   useTLS: true,
 });
 
@@ -28,8 +28,7 @@ app.use(cors());
 // });
 
 //DB config
-const connection_uri =
-  "mongodb+srv://wpmern:neha1403@cluster0.bwvwj.mongodb.net/test?retryWrites=true&w=majority";
+const connection_uri = "";
 
 mongoose.connect(connection_uri, {
   useCreateIndex: true,
